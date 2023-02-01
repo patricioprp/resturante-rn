@@ -15,6 +15,10 @@ const SearchScreen = () => {
         });
     };
 
+    if(!results.length){
+        return
+    }
+    
     return (
     <>
         <SearchBar 
